@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 1em 3em 4em;
+    max-width: 1500px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    line-height: 2em;
+    color: #000;
+    background-color: #D9CB04;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #732F17;
+    }
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: white
+    ;
+    padding: 6px;
+    text-decoration: none;
+}
